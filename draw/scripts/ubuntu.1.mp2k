@@ -1,0 +1,52 @@
+info info 需要256色支持
+color 215
+null 打印 u
+point 3 0
+point 4 0
+point 5 0
+point 6 0
+point 6 1
+point 3 2
+point 4 2
+point 5 2
+point 6 2
+null
+null 打印 b
+point 0 4
+point 1 4
+point 2 4
+point 3 4
+point 4 4
+point 5 4
+point 6 4
+point 3 5
+point 6 5
+point 3 6
+point 4 6
+point 5 6
+point 6 6
+null
+null 打印 u
+point 3 8
+point 4 8
+point 5 8
+point 6 8
+point 6 9
+point 3 10
+point 4 10
+point 5 10
+point 6 10
+null
+null 打印 n
+point 3 12
+point 4 12
+point 5 12
+point 6 12
+point 3 13
+point 3 14
+point 4 14
+point 5 14
+point 6 14
+file scripts/ubuntu.2.mp2k
+null
+null

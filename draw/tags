@@ -1,0 +1,66 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALL	Makefile	/^ALL: draw$/;"	t
+BasicCommandInterpreter	basic-command-interpreter.c	/^void BasicCommandInterpreter(List Commands, WINDOW* LocalWin,$/;"	f	typeref:typename:void
+COMMON	infoshower.h	/^#define COMMON /;"	d
+CommandGetter	command-getter.c	/^List CommandGetter(char* str) {$/;"	f	typeref:typename:List
+ERROR	infoshower.h	/^#define ERROR /;"	d
+FileCommandInterpreter	file-command-interpreter.c	/^void FileCommandInterpreter(List Commands) {$/;"	f	typeref:typename:void
+FullPairInit	full-pair-init.c	/^void FullPairInit(void) {$/;"	f	typeref:typename:void
+INFO	infoshower.h	/^#define INFO /;"	d
+ImgShell	ui.c	/^void ImgShell(WINDOW* LocalWin) {$/;"	f	typeref:typename:void
+InfoLine	ui.c	/^void InfoLine(WINDOW* LocalWin) {$/;"	f	typeref:typename:void
+InfoShower	infoshower.c	/^void InfoShower(int Type, char* Info) {$/;"	f	typeref:typename:void
+List	list.h	/^}* List;$/;"	t	typeref:struct:_list *
+Node	list.h	/^} Node;$/;"	t	typeref:struct:_node
+OBJ	Makefile	/^OBJ = main.o ui.o list.o command-getter.o string-getter.o \\$/;"	m
+StringGetter	string-getter.c	/^char* StringGetter(WINDOW* LocalWin) {$/;"	f	typeref:typename:char *
+TODO	README.md	/^## TODO$/;"	s
+WARNING	infoshower.h	/^#define WARNING /;"	d
+_CommandLine	ui.h	/^WINDOW* _CommandLine;$/;"	v	typeref:typename:WINDOW *
+_ImgShell	ui.h	/^WINDOW* _ImgShell;$/;"	v	typeref:typename:WINDOW *
+_ImgShower	ui.h	/^WINDOW* _ImgShower;$/;"	v	typeref:typename:WINDOW *
+_InfoLine	ui.h	/^WINDOW* _InfoLine;$/;"	v	typeref:typename:WINDOW *
+__BASIC_COMMAND_INTERPRETER_H__	basic-command-interpreter.h	/^#define __BASIC_COMMAND_INTERPRETER_H__$/;"	d
+__COMMAND_GETTER_H__	command-getter.h	/^#define __COMMAND_GETTER_H__$/;"	d
+__FILE_COMMAND_INTERPRETER_H__	file-command-interpreter.h	/^#define __FILE_COMMAND_INTERPRETER_H__$/;"	d
+__FULL_PAIR_INIT_H__	full-pair-init.h	/^#define __FULL_PAIR_INIT_H__$/;"	d
+__INFOSHOWER_H__	infoshower.h	/^#define __INFOSHOWER_H__$/;"	d
+__NODE_H__	list.h	/^#define __NODE_H__$/;"	d
+__STRING_GETTER_H__	string-getter.h	/^#define __STRING_GETTER_H__$/;"	d
+__UI_H__	ui.h	/^#define __UI_H__$/;"	d
+_list	list.h	/^typedef struct _list {$/;"	s
+_node	list.h	/^typedef struct _node {$/;"	s
+basic-command-infoshower.o	Makefile	/^basic-command-infoshower.o: basic-command-infoshower.c$/;"	t
+clean	Makefile	/^clean:$/;"	t
+color_pair	ui.h	/^int color_pair;$/;"	v	typeref:typename:int
+command-getter	Makefile	/^command-getter: command-getter.c$/;"	t
+draw	Makefile	/^draw: $(OBJ)$/;"	t
+draw	README.md	/^## draw$/;"	s
+file-command-interpreter.o	Makefile	/^file-command-interpreter.o: file-command-interpreter.c$/;"	t
+full-pair-init.o	Makefile	/^full-pair-init.o: full-pair-init.c$/;"	t
+head	list.h	/^    Node* head;$/;"	m	struct:_list	typeref:typename:Node *
+infoshower.o	Makefile	/^infoshower.o: infoshower.c$/;"	t
+last	list.h	/^    Node* last;$/;"	m	struct:_list	typeref:typename:Node *
+list.o	Makefile	/^list.o: list.c$/;"	t
+list_add	list.c	/^void list_add(List list, char* str) {$/;"	f	typeref:typename:void
+list_at	list.c	/^char* list_at(List list, int n) {$/;"	f	typeref:typename:char *
+list_clean	list.c	/^void list_clean(List list) {$/;"	f	typeref:typename:void
+list_free	list.c	/^void list_free(List list) {$/;"	f	typeref:typename:void
+list_new	list.c	/^List list_new(void) {$/;"	f	typeref:typename:List
+main	main.c	/^int main(void) {$/;"	f	typeref:typename:int
+main.o	Makefile	/^main.o: main.c$/;"	t
+next	list.h	/^    struct _node* next;$/;"	m	struct:_node	typeref:struct:_node *
+string-getter	Makefile	/^string-getter: string-getter.c$/;"	t
+total	list.h	/^    int total;$/;"	m	struct:_list	typeref:typename:int
+ui.o	Makefile	/^ui.o: ui.c$/;"	t
+value	list.h	/^    char* value;$/;"	m	struct:_node	typeref:typename:char *
+内部命令	README.md	/^### 内部命令$/;"	S
+命令模式	README.md	/^#### 命令模式$/;"	t
+用法	README.md	/^### 用法$/;"	S
+脚本	README.md	/^### 脚本$/;"	S
